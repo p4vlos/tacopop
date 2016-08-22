@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3EAE18271D6B641D008702BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE18261D6B641D008702BC /* AppDelegate.swift */; };
-		3EAE18291D6B641D008702BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE18281D6B641D008702BC /* ViewController.swift */; };
 		3EAE182C1D6B641D008702BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAE182A1D6B641D008702BC /* Main.storyboard */; };
 		3EAE182E1D6B641D008702BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EAE182D1D6B641D008702BC /* Assets.xcassets */; };
 		3EAE18311D6B641D008702BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EAE182F1D6B641D008702BC /* LaunchScreen.storyboard */; };
 		3EAE183C1D6B641D008702BC /* TacoPOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE183B1D6B641D008702BC /* TacoPOPTests.swift */; };
+		3EAE184D1D6B64B9008702BC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE184C1D6B64B9008702BC /* MainVC.swift */; };
+		3EAE184F1D6B6713008702BC /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE184E1D6B6713008702BC /* DropShadow.swift */; };
+		3EAE18511D6B67C4008702BC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE18501D6B67C4008702BC /* HeaderView.swift */; };
+		3EAE18531D6B6962008702BC /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE18521D6B6962008702BC /* Taco.swift */; };
+		3EAE18551D6B6D47008702BC /* TacoPOPData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3EAE18541D6B6D47008702BC /* TacoPOPData.csv */; };
+		3EAE18571D6B6D6B008702BC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE18561D6B6D6B008702BC /* DataService.swift */; };
+		3EAE185C1D6B702A008702BC /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE185A1D6B702A008702BC /* TacoCell.swift */; };
+		3EAE185D1D6B702A008702BC /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EAE185B1D6B702A008702BC /* TacoCell.xib */; };
+		3EAE185F1D6B7657008702BC /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE185E1D6B7657008702BC /* ReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +36,6 @@
 /* Begin PBXFileReference section */
 		3EAE18231D6B641D008702BC /* TacoPOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAE18261D6B641D008702BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EAE18281D6B641D008702BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EAE182B1D6B641D008702BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EAE182D1D6B641D008702BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EAE18301D6B641D008702BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +43,15 @@
 		3EAE18371D6B641D008702BC /* TacoPOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoPOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAE183B1D6B641D008702BC /* TacoPOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoPOPTests.swift; sourceTree = "<group>"; };
 		3EAE183D1D6B641D008702BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EAE184C1D6B64B9008702BC /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		3EAE184E1D6B6713008702BC /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		3EAE18501D6B67C4008702BC /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3EAE18521D6B6962008702BC /* Taco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		3EAE18541D6B6D47008702BC /* TacoPOPData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TacoPOPData.csv; sourceTree = "<group>"; };
+		3EAE18561D6B6D6B008702BC /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		3EAE185A1D6B702A008702BC /* TacoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
+		3EAE185B1D6B702A008702BC /* TacoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
+		3EAE185E1D6B7657008702BC /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +93,12 @@
 		3EAE18251D6B641D008702BC /* TacoPOP */ = {
 			isa = PBXGroup;
 			children = (
-				3EAE18261D6B641D008702BC /* AppDelegate.swift */,
-				3EAE18281D6B641D008702BC /* ViewController.swift */,
-				3EAE182A1D6B641D008702BC /* Main.storyboard */,
-				3EAE182D1D6B641D008702BC /* Assets.xcassets */,
-				3EAE182F1D6B641D008702BC /* LaunchScreen.storyboard */,
-				3EAE18321D6B641D008702BC /* Info.plist */,
+				3EAE184B1D6B6456008702BC /* Extensions */,
+				3EAE184A1D6B6450008702BC /* Protocols */,
+				3EAE18481D6B643C008702BC /* Model */,
+				3EAE18471D6B6437008702BC /* View */,
+				3EAE18461D6B6430008702BC /* Controller */,
+				3EAE18491D6B6442008702BC /* Resources */,
 			);
 			path = TacoPOP;
 			sourceTree = "<group>";
@@ -94,6 +110,62 @@
 				3EAE183D1D6B641D008702BC /* Info.plist */,
 			);
 			path = TacoPOPTests;
+			sourceTree = "<group>";
+		};
+		3EAE18461D6B6430008702BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EAE18261D6B641D008702BC /* AppDelegate.swift */,
+				3EAE184C1D6B64B9008702BC /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3EAE18471D6B6437008702BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EAE182A1D6B641D008702BC /* Main.storyboard */,
+				3EAE182F1D6B641D008702BC /* LaunchScreen.storyboard */,
+				3EAE18501D6B67C4008702BC /* HeaderView.swift */,
+				3EAE185A1D6B702A008702BC /* TacoCell.swift */,
+				3EAE185B1D6B702A008702BC /* TacoCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3EAE18481D6B643C008702BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EAE18521D6B6962008702BC /* Taco.swift */,
+				3EAE18561D6B6D6B008702BC /* DataService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3EAE18491D6B6442008702BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3EAE18541D6B6D47008702BC /* TacoPOPData.csv */,
+				3EAE182D1D6B641D008702BC /* Assets.xcassets */,
+				3EAE18321D6B641D008702BC /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3EAE184A1D6B6450008702BC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3EAE184E1D6B6713008702BC /* DropShadow.swift */,
+				3EAE185E1D6B7657008702BC /* ReusableView.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3EAE184B1D6B6456008702BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EAE18311D6B641D008702BC /* LaunchScreen.storyboard in Resources */,
+				3EAE18551D6B6D47008702BC /* TacoPOPData.csv in Resources */,
 				3EAE182E1D6B641D008702BC /* Assets.xcassets in Resources */,
 				3EAE182C1D6B641D008702BC /* Main.storyboard in Resources */,
+				3EAE185D1D6B702A008702BC /* TacoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EAE18291D6B641D008702BC /* ViewController.swift in Sources */,
+				3EAE185C1D6B702A008702BC /* TacoCell.swift in Sources */,
 				3EAE18271D6B641D008702BC /* AppDelegate.swift in Sources */,
+				3EAE184F1D6B6713008702BC /* DropShadow.swift in Sources */,
+				3EAE185F1D6B7657008702BC /* ReusableView.swift in Sources */,
+				3EAE184D1D6B64B9008702BC /* MainVC.swift in Sources */,
+				3EAE18571D6B6D6B008702BC /* DataService.swift in Sources */,
+				3EAE18531D6B6962008702BC /* Taco.swift in Sources */,
+				3EAE18511D6B67C4008702BC /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
