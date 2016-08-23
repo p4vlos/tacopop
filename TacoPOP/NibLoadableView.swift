@@ -1,5 +1,5 @@
 //
-//  ReusableView.swift
+//  NibLoadableView.swift
 //  TacoPOP
 //
 //  Created by Pavlos Nicolaou on 22/08/2016.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-protocol ReusableView: class {}
+protocol NibLoadableView: class {}
 
-extension ReusableView where Self: UIView {
-    
-    static var reuseIdentifier: String {
+extension NibLoadableView where Self: UIView {
+    static var nibName: String {
         return String(self)
     }
 }
